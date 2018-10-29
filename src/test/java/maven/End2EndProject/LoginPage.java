@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -29,5 +30,9 @@ WebDriver driver = null;
 		driver.findElement(By.name("userName")).sendKeys((uname));
 		driver.findElement(By.name("password")).sendKeys((pwd));
 		driver.findElement(By.name("login")).sendKeys((Keys.RETURN));
+	}
+	@AfterTest
+	public void closeBrowser() {
+		driver.close();
 	}
 }
