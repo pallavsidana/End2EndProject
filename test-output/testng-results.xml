@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="21716" started-at="2018-10-29T09:28:45Z" finished-at="2018-10-29T09:29:07Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="21716" started-at="2018-10-29T09:28:45Z" finished-at="2018-10-29T09:29:07Z">
+      <class name="maven.End2EndProject.LoginPage">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:maven.End2EndProject.LoginPage@685cb137]" name="SetUp" is-config="true" duration-ms="16597" started-at="2018-10-29T09:28:45Z" finished-at="2018-10-29T09:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:maven.End2EndProject.LoginPage@685cb137]" name="test1" duration-ms="4958" started-at="2018-10-29T09:29:02Z" finished-at="2018-10-29T09:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[psidana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- maven.End2EndProject.LoginPage -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
