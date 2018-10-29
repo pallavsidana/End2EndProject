@@ -26,8 +26,8 @@ WebDriver driver = null;
 	@Parameters({"username","password"})
 	public void test1(String uname,String pwd) {
 		driver.findElement(By.linkText("SIGN-ON")).click();
-		driver.findElement(By.name("userName")).sendKeys(("username"));
-		driver.findElement(By.name("password")).sendKeys(("password"));
+		driver.findElement(By.name("userName")).sendKeys((uname));
+		driver.findElement(By.name("password")).sendKeys((pwd));
 		driver.findElement(By.name("login")).sendKeys((Keys.RETURN));
 	}
 }
